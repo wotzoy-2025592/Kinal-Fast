@@ -1,0 +1,247 @@
+/* Esta es la página que tomo como guia para hacer el css: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+/* Idea de proyecto de expo - Extra */
+
+body {
+    font-family: "Poppins", "Noto Sans", sans-serif;
+    background: linear-gradient(to bottom, #C2BABA, #D1CDCD, #E6DCDC, #F2E9E9);
+    margin: 0;
+}
+
+.header-content {
+    background: linear-gradient(10deg, #f5f5cfe5, #fee1bcdc);
+    margin: 0;
+    width: 100%;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    padding: 15px 25px;
+}
+
+.image-logo {
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+}
+
+.logo-title {
+    font-size: 45px;
+    text-shadow: 2px 4px #f8d71b;
+    
+}
+
+.section-tools {
+    display: flex;
+    margin: 50px;
+    gap: 45px;
+}
+
+.nav-tools {
+    justify-content: center;
+}
+
+.nav-text {
+    font-size: 20px;
+    color: #333333bd;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-text:hover {
+    color: #e67e22
+}
+
+.link-decoration {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 135px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main-options {
+    background: rgba(196, 177, 177, 0.6);
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.5%;
+    box-shadow: 20px 25px #e67e22; /* Página guia donde saque este efecto: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+    border: 2px solid;
+}
+
+.options-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px #e62222; /* Crea y mueve la misma palabra pero 2px abajo de ancho y 4px de alto (width y height) */
+    max-width: 340px;
+}
+
+.image-poster {
+    height: 360px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.main-content-producto{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 135px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.section-title{
+    font-size: 32px;
+    color: black;
+    text-shadow: 2px 4px #e9a0a0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.producto-targets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.main-targets {
+    background: rgba(196, 177, 177, 0.6);
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.5%;
+    box-shadow: 20px 25px #e67e22;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-food {
+    height: 340px;
+    width: 360px;
+    object-fit: cover;
+    border-radius: 6%;
+    margin-bottom: 17px;
+}
+
+.producto-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 4px #e6a822;
+    max-width: 340px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.producto-text {
+    margin: 0px;
+    text-align: center;
+    color: rgb(54, 45, 45);
+    max-width: 340px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 560;
+}
+
+.image-promo {
+    height: 340px;
+    width: 360px;
+    border-radius: 6%;
+    margin-bottom: 17px;
+}
+
+.footer-body {
+    background-color: #2c3e50;
+    padding: 30px 40px;
+    width: 100%;
+    box-sizing: border-box; /* Si el contenedor crece la proxima vez, usar este para evitarlo y evitar que cubra más*/
+}
+
+.footer-content {
+    margin: 0;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 32px;
+    color: #e67e22;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-icon {
+    color: #e67e22;
+    font-size: 22px;
+}
+
+.footer-subtitulo {
+    font-size: 18px;
+    color: #ecf0f1;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #ecf0f1;
+    margin: 13px 0;
+}
