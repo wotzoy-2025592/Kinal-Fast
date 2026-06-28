@@ -249,7 +249,7 @@ body {
 
 
 /* Dispositivo Responsive - Samsung Galaxy A25 (360px, 760px)*/
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     
     .nav-content {
         flex-direction: column;
@@ -303,7 +303,6 @@ body {
     .main-options,
     .main-targets {
         width: 90%;
-        max-width: 320px;
         padding: 12px;
         box-sizing: border-box;
         box-shadow: 10px 12px #e67e22;
@@ -314,6 +313,8 @@ body {
     .image-promo {
         width: 100%;
         height: auto;
+        display: block;
+        object-fit: cover;
     }
 
     .section-title {
