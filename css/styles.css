@@ -247,7 +247,6 @@ body {
 }
 
 
-
 /* Dispositivo Responsive - Samsung Galaxy A25 (360px, 760px)*/
 @media (max-width: 480px) {
     
@@ -351,5 +350,149 @@ body {
     .footer-text {
         text-align: center;
         word-break: break-word;
+    }
+}
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .nav-content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .section-logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-title {
+        font-size: 36px;
+    }
+
+    .section-tools {
+        margin: 20px 0;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-content {
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+
+    .main-options {
+        width: 330px;
+        box-shadow: 15px 18px #e67e22;
+    }
+
+    .image-poster {
+        width: 100%;
+        height: auto;
+    }
+
+    .producto-targets {
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+
+    .main-targets {
+        width: 330px;
+    }
+
+    .image-food,
+    .image-promo {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-information {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+/* Teléfonos en horizontal */
+@media (max-width: 932px) and (orientation: landscape) {
+
+    .nav-content {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .section-logo {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-logo {
+        padding: 8px;
+    }
+
+    .image-logo {
+        width: 90px;
+    }
+
+    .logo-title {
+        font-size: 28px;
+    }
+
+    .section-tools {
+        margin: 0;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .nav-text {
+        font-size: 17px;
+    }
+
+    .main-content,
+    .main-content-producto {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .section-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .producto-targets {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .main-options {
+        width: 280px;
+        box-shadow: 12px 15px #e67e22;
+    }
+
+    .main-targets {
+        width: 310px;
+        box-shadow: 12px 15px #e67e22;
+    }
+
+    .image-poster {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-food,
+    .image-promo {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-information {
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
